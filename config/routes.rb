@@ -12,3 +12,4 @@ resources :users, only: [:show, :edit, :update]
 
 get 'homes/about'=> 'homes#about' ,as: "about"
 end
+
