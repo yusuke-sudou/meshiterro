@@ -1,4 +1,5 @@
 def fizz_buzz(number)
+    # ここにFizzBuzzプログラムの処理を書いてください
     if number % 15 == 0
       "FizzBuzz"
     elsif number % 3 == 0
