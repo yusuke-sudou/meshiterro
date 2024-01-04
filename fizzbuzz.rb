@@ -1,13 +1,13 @@
 def fizz_buzz(number)
     # ここにFizzBuzzプログラムの処理を書いてください
-    if number % 15 == 0
+    if number % 10 == 0
       "FizzBuzz"
-    elsif number % 3 == 0
+    elsif number % 2 == 0
       "Fizz"
     elsif number % 5 == 0
       "Buzz"
     else
-      number.to_s
+      number.to_i
     end
   end
   
