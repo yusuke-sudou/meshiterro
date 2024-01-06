@@ -1,3 +1,4 @@
+<div class="container">
 <div>
   <%= image_tag @post_image.get_image %>
   <p>ショップ名：<%= @post_image.shop_name %></p>
@@ -39,4 +40,5 @@
     <%= f.text_area :comment, rows: '5', placeholder: "コメントをここに" %>
     <%= f.submit "送信する" %>
   <% end %>
+</div>
 </div>
